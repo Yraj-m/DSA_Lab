@@ -30,8 +30,10 @@ int main()
     {
         int temp = 0;
         mid = (lo+hi)/2;
+
         for(i=0;i<n;i++)
             temp+= (arr[i]/mid);
+            
         if(temp >= k)
         {
             steps = mid;

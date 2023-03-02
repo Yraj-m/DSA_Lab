@@ -31,7 +31,4 @@ int main()
 
     printf("%ld",root);
     return(0);
-
-
-
 }

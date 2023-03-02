@@ -27,11 +27,12 @@ int main()
         }
         else if(arr[temp]<k)
         {
-            if(arr[temp+1]>k)
-            {
-                found=temp;
-                break;
-            }
+            // if(arr[temp+1]>k)
+            // {
+            //     found=temp;
+            //     break;
+            // }
+            found = temp;
             left = temp+1;
         }
         else
